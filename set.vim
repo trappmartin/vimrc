@@ -115,5 +115,5 @@ set tw=800
 set smartindent
 set autoindent
 
-let g:python_host_prog = expand('~/.virtualenv/neovim/python2/bin/python')
-let g:python3_host_prog = expand('~/.virtualenv/neovim/python3/bin/python')
+" Highlight column 93 to keep character limit.
+au FileType julia setlocal colorcolumn=93

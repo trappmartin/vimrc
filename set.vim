@@ -67,7 +67,7 @@ set mat=2
 set hlsearch
 set incsearch
 
-set cursorline
+" set cursorline
 
 set showcmd
 

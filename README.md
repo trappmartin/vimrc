@@ -11,9 +11,3 @@ My vimrc configuration.
 2. Start vim or nvim, it will download dein automatically
 3. Execute `:call dein#install()` to download plugins
 4. Close vim
-
-That's all. Happy hacking!
-
-## Windows
-
-Fuck Windows.

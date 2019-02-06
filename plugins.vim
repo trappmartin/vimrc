@@ -353,6 +353,6 @@ let g:rainbow_active = 1
 call dein#add('andrewstuart/vim-kubernetes')
 " }}}
 
-" vim-yaml {{{
-call dein#add('avakhov/vim-yaml')
+" vim-julia {{{
+call dein#add('JuliaEditorSupport/julia-vim')
 " }}}

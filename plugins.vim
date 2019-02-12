@@ -13,16 +13,10 @@ let g:nerdtree_tabs_open_on_gui_startup = '1'
 " }}}
 
 " colorscheme {{{
+call dein#add('nanotech/jellybeans.vim')
 call dein#add('tomasr/molokai')
 
-let g:rehash256 = 1
-
-call dein#add('altercation/vim-colors-solarized')
-
-let g:solarized_termcolors = 256
-let g:solarized_termtrans  = 1
-let g:solarized_contrast   = "normal"
-let g:solarized_visibility = "low"
+""let g:rehash256 = 1
 " }}}
 
 " Airline - lean & mean status/tabline for vim that's light as air {{{

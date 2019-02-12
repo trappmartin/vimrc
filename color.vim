@@ -1,10 +1,6 @@
 " Reverse visual mode color
-hi Visual term=reverse cterm=reverse guibg=Grey
+"hi Visual term=reverse cterm=reverse guibg=Grey
 set background=dark
+set guifont=Monaco:h10 noanti
 
-" coloscheme
-if has('gui_running')
-    set guifont=Monaco\ for\ Powerline:h13
-end
-
-silent! colorscheme solarized
+silent! colorscheme jellybeans
